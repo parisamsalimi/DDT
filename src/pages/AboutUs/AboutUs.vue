@@ -10,43 +10,55 @@ import Header from "@/components/Header/Header.vue";
     <section class="about-section">
       <h1 class="title">About This App</h1>
       <p>
-        This app is a house management platform built with Vue 3, Pinia, and
-        modern web technologies. It provides a smooth and responsive interface
-        for both desktop and mobile users to browse, search, and manage house
-        listings with ease.
-      </p>
+  This application is a comprehensive house management platform designed using Vue 3, Pinia, and modern web technologies. It delivers a fast, intuitive, and fully responsive experience across desktop and mobile devices. Users can effortlessly browse, search, sort, and manage property listings, with robust features such as real-time form validation, secure CRUD operations, and dynamic recommendations, all optimized for a seamless and professional user experience.
+</p>
     </section>
 
     <!-- Features -->
     <section class="about-section">
       <h2 class="subtitle">Features</h2>
-      <ul>
-        <li>
-          Full <b>CRUD functionality</b> (Create, Read, Update, Delete) for
-          managing house listings.
-        </li>
-        <li>
-          <b>House Listing (HousePage.vue):</b> View all houses, search, sort by
-          price/size and manage listings. Displays “No result
-          found” when no matches exist.
-        </li>
-        <li>
-          <b>House Details (DetailPage.vue):</b> View complete details of a
-          house, including recommended houses and placeholders while loading.
-        </li>
-        <li>
-          <b>Create / Edit House:</b> Add or edit houses with form validation
-          and error handling.
-        </li>
-        <li>
-          <b>Delete House:</b> Secure delete functionality with a confirmation
-          modal.
-        </li>
-        <li><b>About Page:</b> Information about the app and the developer.</li>
-        <li>
-          <b>Responsive Design:</b> Works seamlessly on both desktop and mobile.
-        </li>
-      </ul>
+<ul>
+  <li>
+    Full <b>CRUD functionality</b> (Create, Read, Update, Delete) for managing house listings.
+  </li>
+  <li>
+    <b>Home Page:</b> View all houses with search and sorting options by price or size. Shows “No result found” when no matches exist.
+  </li>
+  <li>
+    <b>House Details (DetailPage.vue):</b> View complete details of a house, including images, description, bedrooms, bathrooms, size, price, and recommended houses. Includes placeholders while loading.
+  </li>
+  <li>
+    <b>Create / Edit House:</b> Add or edit houses using forms with <b>real-time validation</b> and error handling to ensure required fields are filled and data formats are correct.
+  </li>
+  <li>
+    <b>DeleteModal:</b> Secure delete functionality with a confirmation modal to prevent accidental deletion.
+  </li>
+  <li>
+    <b>Search and Sort:</b> Quickly find houses using search functionality and sort listings by price or size.
+  </li>
+  <li>
+    <b>Responsive Design:</b> Fully responsive layout for seamless experience on desktop, tablet, and mobile devices.
+  </li>
+  <li>
+    <b>State Management:</b> Uses <b>Pinia</b> for centralized state management to keep house data consistent across components.
+  </li>
+  <li>
+    <b>Loading & Error Handling:</b> Graceful handling of API loading states and errors with informative messages.
+  </li>
+  <li>
+    <b>Navigation:</b> Intuitive navigation with Header and Footer components for smooth browsing between pages.
+  </li>
+  <li>
+    <b>Environment Variables (.env):</b> Securely store API keys and other sensitive configuration using `.env` files, keeping them out of the codebase and enabling different keys for development and production.
+  </li>
+  <li>
+    <b>Form Validation:</b> Ensures that all required inputs are correctly filled, with immediate user feedback on missing or invalid data.
+  </li>
+  <li>
+    <b>Skeleton / Loading Placeholders:</b> Improves UX by showing skeleton loaders while data is being fetched from the API, avoiding blank screens and indicating content is loading.
+  </li>
+</ul>
+
     </section>
 
     <!-- Developer Info -->
