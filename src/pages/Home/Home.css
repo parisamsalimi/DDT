@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+/* plain button (no circle) */
+.favorite-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  left: 265px;
+}
+
+/* SVG heart */
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  fill: none; /* outline only */
+  stroke: #eb5440;
+  stroke-width: 1.8; /* slightly thicker */
+  transition: transform 0.15s ease, fill 0.15s ease;
+}
+.create-button-link {
+  display: none;
+}
+/* active = filled red */
+.heart-icon.active {
+  fill: #eb5440;
+  stroke: #eb5440;
+  transform: scale(1.1);
+}
+
+/* hover effect */
+.favorite-button:hover .heart-icon {
+  transform: scale(1.15);
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  font-family: "Montserrat";
+}
+
+.page-title-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #eb5440;
+  border: none;
+  color: #f6f6f6;
+  font-family: "Montserrat";
+  margin-top: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-title-wrap {
+    padding: 12px 0;
+    justify-content: flex-end;
+    gap: 36%;
+  }
+
+  .create-button-link {
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .search {
+    width: 100%;
+  }
+  .page-title-wrap > .button {
+    display: none;
+  }
+
+  .row-btn {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5px; */
+    width: 100%;
+  }
+
+  .btn-p,
+  .btn-s {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .house-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .details {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  .details h2 {
+    font-size: 14px;
+  }
+
+  .details h3 {
+    font-size: 12px;
+  }
+
+  .details-home {
+    gap: 5px;
+    font-size: 12px;
+  }
+
+  /* Card action buttons */
+  .cardpic {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    gap: 5px;
+  }
+
+  /* Heart button */
+}

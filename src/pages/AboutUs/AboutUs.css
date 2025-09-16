@@ -1,0 +1,54 @@
+.about-container {
+  max-width: 100%;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+  font-family: "Montserrat";
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.about-section {
+  box-sizing: border-box;
+  width: 60%;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .about-container {
+    max-width: 100%;
+  }
+  .about-section {
+    width: 100%;
+  }
+}

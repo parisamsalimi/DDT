@@ -1,0 +1,13 @@
+.recommended-wrap {
+  min-width: 320px;
+}
+.recommended-wrap > h2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .recommended-wrap {
+    width: 100%;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #eb5440;
+  border: none;
+  color: #f6f6f6;
+  font-family: "Montserrat";
+  margin-top: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  min-width: 150px;
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    width: 100%;
+  }
+}

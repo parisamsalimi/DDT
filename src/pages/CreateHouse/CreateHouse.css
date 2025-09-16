@@ -1,0 +1,110 @@
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+.create-house-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 320px;
+  flex-direction: column;
+  margin-top: 48px;
+  padding-bottom: 100px;
+}
+
+.double-input-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+}
+.file-input-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  width: 100%;
+  position: relative;
+}
+
+.file-input-wrap label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.file-input-wrap .file-input {
+  height: 120px;
+  width: 120px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px dashed #000;
+  cursor: pointer;
+}
+.file-input-wrap > .house-image-wrap {
+  position: relative;
+  height: 120px;
+  width: 120px;
+}
+
+.file-input-wrap > .house-image-wrap > .house-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 6px;
+}
+
+.file-input-wrap > .house-image-wrap > .clear-icon {
+  height: 36px;
+  width: 36px;
+  top: -8px;
+  right: -18px;
+  position: absolute;
+  cursor: pointer;
+}
+.file-input-wrap > .error-message {
+  color: #eb5440;
+  font-size: 12px;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -20px;
+}
+.page_title {
+  display: none;
+}
+
+.button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .create-house-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .page_title {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+  }
+  .page_title > img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  .background {
+    background-size: auto 100%;
+    background-position: bottom;
+    background-size: contain;
+    background-color: #f6f6f6;
+  }
+}

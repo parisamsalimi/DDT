@@ -1,0 +1,35 @@
+.input-wrap {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.input-wrap label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.input-wrap input {
+  all: unset;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+}
+
+.input-wrap > .error {
+  border: 1px solid #eb5440;
+}
+
+.input-wrap .error-message {
+  color: #eb5440;
+  font-size: 12px;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -20px;
+}

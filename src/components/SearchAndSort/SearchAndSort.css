@@ -1,0 +1,69 @@
+.search-sort-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.search {
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  min-width: 360px;
+}
+
+.search img {
+  width: 20px;
+  height: 20px;
+}
+
+.search .clear-search {
+  cursor: pointer;
+}
+
+.search > input {
+  all: unset;
+  border: none;
+  font-size: 18px;
+  flex: 1;
+  margin-left: 10px;
+  background-color: #e8e8e8;
+}
+
+.sort-button {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.sort-button.active {
+  background-color: #eb5440;
+  color: white;
+  border-color: #007bff;
+}
+
+.sort-button.size {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  flex: 1;
+}
+
+.sort-button.price {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .search-sort-wrap {
+    flex-direction: column;
+  }
+
+  .search {
+    margin-bottom: 16px;
+  }
+}

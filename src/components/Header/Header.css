@@ -1,0 +1,32 @@
+.header-bg {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #eb5440; /* highlight on hover */
+}
+
+.logo {
+  max-width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
