@@ -1,7 +1,7 @@
 .header-bg {
   width: 100%;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .header {
@@ -13,12 +13,12 @@
 .nav-link {
   cursor: pointer;
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
 .nav-link:hover {
   text-decoration: none;
-  color: #eb5440; /* highlight on hover */
+  color: var(--brand);
 }
 
 .logo {

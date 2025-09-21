@@ -3,7 +3,7 @@
   width: 100%;
   margin-bottom: 20px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: var(--white);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   padding: 10px;
   display: flex;
@@ -14,7 +14,7 @@
 
 .card:hover {
   transform: scale(1.01);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .house-card-image {
