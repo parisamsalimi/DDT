@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 20px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: var(--white);
   position: relative;
   padding: 10px;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
 .house-card-placeholder > .house-card-image {
   width: 120px;
   height: 120px;
-  background-color: #e0e0e0;
+  background-color: var(--gray-300);
   border-radius: 5px;
   flex-shrink: 0;
   animation: pulse 1.5s infinite;
@@ -27,7 +27,7 @@
 .house-img > .skeleton {
   /* width: 120px;
   height: 120px; */
-  background-color: #e0e0e0;
+  background-color: var(--gray-300);
   border-radius: 5px;
   flex-shrink: 0;
   animation: pulse 1.5s infinite;
@@ -40,7 +40,7 @@
 
 .skeleton-text {
   height: 16px;
-  background-color: #e0e0e0;
+  background-color: var(--gray-300);
   margin: 5px 0;
   border-radius: 4px;
   animation: pulse 1.5s infinite;
@@ -68,7 +68,7 @@
 .skeleton-icon {
   width: 20px;
   height: 20px;
-  background-color: #e0e0e0;
+  background-color: var(--gray-300);
   border-radius: 4px;
   animation: pulse 1.5s infinite;
 }
@@ -76,19 +76,19 @@
 .skeleton-btn {
   width: 22px;
   height: 22px;
-  background-color: #e0e0e0;
+  background-color: var(--gray-300);
   border-radius: 4px;
   animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    background-color: #e0e0e0;
+    background-color: var(--gray-300);
   }
   50% {
-    background-color: #f0f0f0;
+    background-color: var(--gray-300);
   }
   100% {
-    background-color: #e0e0e0;
+    background-color: var(--gray-300);
   }
 }

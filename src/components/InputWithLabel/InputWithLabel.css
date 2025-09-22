@@ -16,18 +16,18 @@
 .input-wrap input {
   all: unset;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 6px;
   padding: 12px 16px;
   box-sizing: border-box;
 }
 
 .input-wrap > .error {
-  border: 1px solid #eb5440;
+  border: 1px solid var(--brand)
 }
 
 .input-wrap .error-message {
-  color: #eb5440;
+  color: var(--brand);
   font-size: 12px;
   margin-top: 5px;
   position: absolute;

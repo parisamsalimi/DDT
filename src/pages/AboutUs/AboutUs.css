@@ -1,6 +1,6 @@
 .about-container {
   max-width: 100%;
-  background-color: #f6f6f6;
+  background-color: var(--gray-100);
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.6;

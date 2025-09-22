@@ -1,9 +1,9 @@
 .button {
   padding: 8px 20px;
   border-radius: 5px;
-  background-color: #eb5440;
+  background-color: var(--brand);
   border: none;
-  color: #f6f6f6;
+  color: var(--white);
   font-family: "Montserrat";
   margin-top: 15px;
   text-decoration: none;

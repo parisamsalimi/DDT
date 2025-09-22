@@ -4,3 +4,31 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  /* Brand */
+  --brand: #EB5440;
+  --black: #000000;
+  --white: #FFFFFF;
+
+  /* Neutral Scale */
+  --gray-900: #4A4B4C;
+  --gray-600: #C3C3C3;
+  --gray-400: #DDDDDD; 
+  --gray-300: #E0E0E0;
+  --gray-200: #E8E8E8;
+  --gray-100: #F6F6F6;
+
+  /* Functional */
+  --blue: #067BC2; 
+
+  /* Backgrounds */
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+
+  /* Borders */
+  --border-light: var(--gray-400);
+  --border-black: var(--black);
+
+  /* Shadows */
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
