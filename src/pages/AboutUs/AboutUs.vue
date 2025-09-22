@@ -65,7 +65,7 @@ import Header from "@/components/Header/Header.vue";
     <section class="about-section">
       <h2 class="subtitle">About the Developer</h2>
       <p>
-        Hi, I’m Parisa — a passionate and eager Junior Front-End Developer with
+        I’m Parisa — a passionate and eager Junior Front-End Developer with
         skills in HTML, CSS, JavaScript, Vue.js, and Nuxt.js. I enjoy building
         responsive, user-friendly interfaces and have hands-on experience
         creating full CRUD applications with API integration and Pinia for state
